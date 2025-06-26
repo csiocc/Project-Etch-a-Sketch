@@ -1,0 +1,29 @@
+/* Styles */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+.container > div {
+    
+
+}
+.inputfield {
+    display: flex;
+    justify-content: center;
+}
+input {
+    align-self: center;
+    margin: 10px;
+    width: 100px;
+    height: auto;
+}
